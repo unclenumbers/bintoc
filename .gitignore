@@ -1,0 +1,6 @@
+*.exe
+.vscode
+*.jpg
+*.png
+*.c
+!bintoc.c
