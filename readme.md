@@ -1,6 +1,6 @@
 # bintoc
 
-bintoc is a CLI program that takes any file (ususally a binary) and outputs it as a .c file with an array of all bytes in the file, named ARRAY.
+bintoc is a CLI program that takes any file (ususally a binary) and outputs it as a .c file with an array of all bytes in the file, named ARRAY. The variable also has the size of the array.
 
 ## Building bintoc
 

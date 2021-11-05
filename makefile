@@ -1,4 +1,4 @@
-CFLAGS = -Wall -Wextra -Wpedantic
+CFLAGS = -Wall -Wextra -Wpedantic -Wno-format
 
-bintoc.exe : bintoc.c
+bintoc : bintoc.c
 	gcc -o $@ $< $(CFLAGS)
